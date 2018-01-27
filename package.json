@@ -1,0 +1,35 @@
+{
+  "name": "marktex",
+  "version": "0.1.0",
+  "description": "A Markdown to LaTeX processor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node js/marktex.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baelyk/marktex.git"
+  },
+  "author": "Baelyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Baelyk/marktex/issues"
+  },
+  "homepage": "https://github.com/Baelyk/marktex#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.1",
+    "fs-jetpack": "^1.2.0",
+    "js-yaml": "^3.10.0",
+    "mapz": "^1.0.1",
+    "remark": "^8.0.0",
+    "remark-frontmatter": "^1.2.0",
+    "remark-html": "^7.0.0",
+    "remark-math": "^1.0.3",
+    "remark-parse": "^4.0.0",
+    "remark-preset-lint-recommended": "^3.0.1",
+    "unified-stream": "^1.0.1",
+    "unist-util-visit": "^1.3.0",
+    "vfile-reporter": "^4.0.0",
+    "zwitch": "^1.0.2"
+  }
+}
